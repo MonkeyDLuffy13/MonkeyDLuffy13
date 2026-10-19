@@ -30,6 +30,13 @@ exploit apps and automated solver scripts.
 
 > ✅ 4 labs · Android application exploitation
 
+### 📱 [iOS Mobile Pentesting](https://github.com/MonkeyDLuffy13/ios-mobile-pentesting)
+iOS application penetration testing — methodology, practical cheatsheets
+(environment setup & jailbreaks, static analysis, Frida/Objection dynamic
+analysis, Keychain & storage, SSL pinning bypass) and per-lab write-ups.
+
+> ✅ 5 cheatsheets · iOS · Frida · Objection
+
 ---
 
 ## 🧰 Toolbox
