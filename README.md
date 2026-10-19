@@ -30,12 +30,20 @@ exploit apps and automated solver scripts.
 
 >  4 labs · Android application exploitation
 
-### [iOS Mobile Pentesting](https://github.com/MonkeyDLuffy13/ios-mobile-pentesting)
-iOS application penetration testing — methodology, practical cheatsheets
-(environment setup & jailbreaks, static analysis, Frida/Objection dynamic
-analysis, Keychain & storage, SSL pinning bypass) and per-lab write-ups.
+### [Android Pentesting Cheatsheet](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet)
+A complete Android mobile pentesting cheatsheet — from zero to hero: lab setup,
+ADB, static & dynamic analysis, Frida/Objection, Burp MITM, IPC & deep links,
+storage, native bypasses, biometrics, hybrid frameworks (Flutter/React Native),
+a MASVS-mapped master checklist, and an automated MobSF triage pipeline.
 
->  5 cheatsheets · iOS · Frida · Objection
+>  16 cheatsheets + scripts · Android · Frida · MobSF · MASVS
+
+### [iOS Pentesting Cheatsheet](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet)
+The iOS counterpart: methodology, 10 practical cheatsheets (jailbreaks, IPA
+analysis, Frida/ObjC hooks, Keychain, pinning bypass), a ready-to-run Frida
+script pack, host tools, and per-lab write-ups for the Mobile Hacking Lab iOS track.
+
+>  10 cheatsheets + 7 Frida scripts + writeups · iOS · Frida · Objection · MASVS
 
 ---
 
