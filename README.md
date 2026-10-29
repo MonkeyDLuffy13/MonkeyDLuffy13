@@ -13,6 +13,7 @@ publishing step-by-step write-ups so anyone can reproduce the work.
 | Repo | What's inside |
 |---|---|
 | [portswigger-labs-writeups](https://github.com/MonkeyDLuffy13/portswigger-labs-writeups) | **273 labs across 31 topics** of the PortSwigger Web Security Academy — full step-by-step solutions: SQLi, XSS, SSRF, JWT, GraphQL, request smuggling, prototype pollution, ... |
+| [androgear](https://github.com/MonkeyDLuffy13/androgear) | **`gear` CLI** — Android pentesting toolkit: one-command APK triage, exported-component & deep-link enumeration with ready `adb` triggers, hardcoded-secret hunting, a 12-hook Frida arsenal, and pentest-report scaffolding |
 | [cylab-academy-writeups](https://github.com/MonkeyDLuffy13/cylab-academy-writeups) | **100 writeups** for the CyLab Security Academy library (formerly picoCTF) — Web Exploitation, Reverse Engineering, Forensics, Crypto and Pwn, each closing with a report-ready impact/remediation paragraph |
 | [android-pentesting-cheatsheet](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet) | Android pentesting **from zero to hero** — 16 cheatsheets + scripts: lab setup, ADB, Frida/Objection, Burp MITM, IPC & deep links, native bypasses, MASVS checklist, automated MobSF triage pipeline |
 | [ios-pentesting-cheatsheet](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet) | The iOS counterpart — 10 cheatsheets + a 7-script Frida pack + host tools: jailbreaks, IPA analysis, ObjC hooks, Keychain, pinning bypass, MASVS checklist |
@@ -24,7 +25,7 @@ publishing step-by-step write-ups so anyone can reproduce the work.
 |---|---|
 | Web security (topic by topic) | [portswigger-labs-writeups](https://github.com/MonkeyDLuffy13/portswigger-labs-writeups) — pick a topic folder (sql-injection, ssrf, jwt, ...) |
 | CTF challenges (picoCTF / CyLab) | [cylab-academy-writeups](https://github.com/MonkeyDLuffy13/cylab-academy-writeups) — indexed by category, difficulty, and a suggested learning order |
-| Android pentesting, first steps | [android-pentesting-cheatsheet README](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet) (roadmap + 60-second workflow) |
+| Android pentesting, first steps | [android-pentesting-cheatsheet README](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet) (roadmap + 60-second workflow) — or let [androgear triage](https://github.com/MonkeyDLuffy13/androgear) map an APK for you |
 | Frida & dynamic analysis | [android file 06](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet/blob/main/06-frida-objection.md) · [ios scripts/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/scripts) |
 | iOS pentesting | [ios-pentesting-cheatsheet cheatsheet/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/cheatsheet) |
 | Mobile Hacking Lab write-ups | [android writeups/](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet/tree/main/writeups) · [ios writeups/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/writeups) |
