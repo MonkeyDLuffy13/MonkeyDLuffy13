@@ -16,7 +16,7 @@ publishing step-by-step write-ups so anyone can reproduce the work.
 | [cylab-academy-writeups](https://github.com/MonkeyDLuffy13/cylab-academy-writeups) | **100 writeups** for the CyLab Security Academy library (formerly picoCTF) — Web Exploitation, Reverse Engineering, Forensics, Crypto and Pwn, each closing with a report-ready impact/remediation paragraph |
 | [android-pentesting-cheatsheet](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet) | Android pentesting **from zero to hero** — 16 cheatsheets + scripts: lab setup, ADB, Frida/Objection, Burp MITM, IPC & deep links, native bypasses, MASVS checklist, automated MobSF triage pipeline |
 | [ios-pentesting-cheatsheet](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet) | The iOS counterpart — 10 cheatsheets + a 7-script Frida pack + host tools: jailbreaks, IPA analysis, ObjC hooks, Keychain, pinning bypass, MASVS checklist |
-| [8ksec-labs-writeups](https://github.com/MonkeyDLuffy13/8ksec-labs-writeups) | 8kSec Academy & Battlegrounds **Android exploitation labs** — writeups with PoC exploit apps and automated solver scripts |
+| [8ksec-labs-writeups](https://github.com/MonkeyDLuffy13/8ksec-labs-writeups) | 8kSec Academy & Battlegrounds **Android & iOS exploitation labs** — 21 writeups (10 Android, 11 iOS) with PoC exploit apps and automated solver scripts |
 
 ## Find your way
 
@@ -27,11 +27,11 @@ publishing step-by-step write-ups so anyone can reproduce the work.
 | Android pentesting, first steps | [android-pentesting-cheatsheet README](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet) (roadmap + 60-second workflow) |
 | Frida & dynamic analysis | [android file 06](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet/blob/main/06-frida-objection.md) · [ios scripts/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/scripts) |
 | iOS pentesting | [ios-pentesting-cheatsheet cheatsheet/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/cheatsheet) |
-| Mobile Hacking Lab write-ups | [writeups/ in both repos](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet/tree/main/writeups) |
+| Mobile Hacking Lab write-ups | [android writeups/](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet/tree/main/writeups) · [ios writeups/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/writeups) |
 
 ## Currently
 
-- Working through the **Mobile Hacking Lab** track (51 labs, Android + iOS)
+- Working through the **Mobile Hacking Lab** track (51 labs, Android + iOS) — 23 write-ups so far
 - Solving the **CyLab Security Academy** (picoCTF) challenge library and writing up every solve
 - Growing a reusable **Frida bypass/script arsenal** for hardened apps
 - Turning the MASVS checklist into repeatable per-app test runs
