@@ -29,9 +29,11 @@ publishing step-by-step write-ups so anyone can reproduce the work.
 | Frida & dynamic analysis | [android file 06](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet/blob/main/06-frida-objection.md) · [ios scripts/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/scripts) |
 | iOS pentesting | [ios-pentesting-cheatsheet cheatsheet/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/cheatsheet) |
 | Mobile Hacking Lab write-ups | [android writeups/](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet/tree/main/writeups) · [ios writeups/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/writeups) |
+| Active Directory & CPTS prep | [cpts-htb-writeups.md](https://github.com/MonkeyDLuffy13/MonkeyDLuffy13/blob/main/cpts-htb-writeups.md) — 22-machine tracker built on the Unofficial CPTS Prep playlist (IppSec walkthroughs) |
 
 ## Currently
 
+- Preparing for **HTB CPTS** — solving the [Unofficial CPTS Prep](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5) machine list, AD track first ([tracker](https://github.com/MonkeyDLuffy13/MonkeyDLuffy13/blob/main/cpts-htb-writeups.md))
 - Working through the **Mobile Hacking Lab** track (51 labs, Android + iOS) — 23 write-ups so far
 - Solving the **CyLab Security Academy** (picoCTF) challenge library and writing up every solve
 - Growing a reusable **Frida bypass/script arsenal** for hardened apps
