@@ -2,9 +2,9 @@
 
 **Aspiring Application Security / Penetration Tester** — documenting every lab I solve, end to end.
 
-I work across **web application security** and **mobile pentesting (Android & iOS)**:
-solving hands-on labs, building small exploit tools and solver scripts, and
-publishing step-by-step write-ups so anyone can reproduce the work.
+I work across **web application security**, **Active Directory & internal network attacks**,
+and **mobile pentesting (Android & iOS)**: solving hands-on labs, building small exploit
+tools and solver scripts, and publishing step-by-step write-ups so anyone can reproduce the work.
 
 ---
 
@@ -14,11 +14,11 @@ publishing step-by-step write-ups so anyone can reproduce the work.
 |---|---|
 | [cpts-htb-writeups](https://github.com/MonkeyDLuffy13/cpts-htb-writeups) | **22 HTB machines** from IppSec's Unofficial CPTS Prep playlist — CPTS-oriented write-ups (AD chains, privesc, pivoting), each with report-style impact & remediation |
 | [portswigger-labs-writeups](https://github.com/MonkeyDLuffy13/portswigger-labs-writeups) | **273 labs across 31 topics** of the PortSwigger Web Security Academy — full step-by-step solutions: SQLi, XSS, SSRF, JWT, GraphQL, request smuggling, prototype pollution, ... |
-| [androgear](https://github.com/MonkeyDLuffy13/androgear) | **`gear` CLI** — Android pentesting toolkit for lab AND production APKs: one-command triage (framework/packer/tracker detection, obfuscation, signature schemes), deep-link & exported-component enumeration with ready `adb` triggers, secret hunting, a 12-hook Frida arsenal, pentest-report scaffolding |
 | [cylab-academy-writeups](https://github.com/MonkeyDLuffy13/cylab-academy-writeups) | **100 writeups** for the CyLab Security Academy library (formerly picoCTF) — Web Exploitation, Reverse Engineering, Forensics, Crypto and Pwn, each closing with a report-ready impact/remediation paragraph |
 | [android-pentesting-cheatsheet](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet) | Android pentesting **from zero to hero** — 16 cheatsheets + scripts: lab setup, ADB, Frida/Objection, Burp MITM, IPC & deep links, native bypasses, MASVS checklist, automated MobSF triage pipeline |
 | [ios-pentesting-cheatsheet](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet) | The iOS counterpart — 10 cheatsheets + a 7-script Frida pack + host tools: jailbreaks, IPA analysis, ObjC hooks, Keychain, pinning bypass, MASVS checklist |
 | [8ksec-labs-writeups](https://github.com/MonkeyDLuffy13/8ksec-labs-writeups) | 8kSec Academy & Battlegrounds **Android & iOS exploitation labs** — 21 writeups (10 Android, 11 iOS) with PoC exploit apps and automated solver scripts |
+| 🔒 androgear *(private — in development)* | **`gear` CLI** — Android pentesting toolkit for lab AND production APKs: one-command triage (framework/packer/tracker detection, obfuscation, signature schemes), deep-link & exported-component enumeration with ready `adb` triggers, secret hunting, a 12-hook Frida arsenal, pentest-report scaffolding |
 
 ## Find your way
 
@@ -26,23 +26,34 @@ publishing step-by-step write-ups so anyone can reproduce the work.
 |---|---|
 | Web security (topic by topic) | [portswigger-labs-writeups](https://github.com/MonkeyDLuffy13/portswigger-labs-writeups) — pick a topic folder (sql-injection, ssrf, jwt, ...) |
 | CTF challenges (picoCTF / CyLab) | [cylab-academy-writeups](https://github.com/MonkeyDLuffy13/cylab-academy-writeups) — indexed by category, difficulty, and a suggested learning order |
+| Active Directory & CPTS prep | [cpts-htb-writeups](https://github.com/MonkeyDLuffy13/cpts-htb-writeups) — 22 write-ups from the Unofficial CPTS Prep playlist + [my solve tracker](https://github.com/MonkeyDLuffy13/MonkeyDLuffy13/blob/main/cpts-htb-writeups.md) |
 | Android pentesting, first steps | [android-pentesting-cheatsheet README](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet) (roadmap + 60-second workflow) — or let [androgear triage](https://github.com/MonkeyDLuffy13/androgear) map an APK for you |
 | Frida & dynamic analysis | [android file 06](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet/blob/main/06-frida-objection.md) · [ios scripts/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/scripts) |
 | iOS pentesting | [ios-pentesting-cheatsheet cheatsheet/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/cheatsheet) |
 | Mobile Hacking Lab write-ups | [android writeups/](https://github.com/MonkeyDLuffy13/android-pentesting-cheatsheet/tree/main/writeups) · [ios writeups/](https://github.com/MonkeyDLuffy13/ios-pentesting-cheatsheet/tree/main/writeups) |
-| Active Directory & CPTS prep | [cpts-htb-writeups](https://github.com/MonkeyDLuffy13/cpts-htb-writeups) — 22 write-ups from the Unofficial CPTS Prep playlist + [my solve tracker](https://github.com/MonkeyDLuffy13/MonkeyDLuffy13/blob/main/cpts-htb-writeups.md) |
 
 ## Currently
 
-- Preparing for **HTB CPTS** — worked through the 22-machine [Unofficial CPTS Prep](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5) playlist into [write-ups](https://github.com/MonkeyDLuffy13/cpts-htb-writeups); now solving the boxes myself ([tracker](https://github.com/MonkeyDLuffy13/MonkeyDLuffy13/blob/main/cpts-htb-writeups.md))
+- Preparing for **HTB CPTS** — documented all 22 machines of the [Unofficial CPTS Prep](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5) playlist as [write-ups](https://github.com/MonkeyDLuffy13/cpts-htb-writeups); now solving the boxes myself ([tracker](https://github.com/MonkeyDLuffy13/MonkeyDLuffy13/blob/main/cpts-htb-writeups.md))
 - Working through the **Mobile Hacking Lab** track (51 labs, Android + iOS) — 23 write-ups so far
-- Solving the **CyLab Security Academy** (picoCTF) challenge library and writing up every solve
 - Growing a reusable **Frida bypass/script arsenal** for hardened apps
 - Turning the MASVS checklist into repeatable per-app test runs
 
 ## Toolbox
 
+**Core / AD & network**
+
+![nmap](https://img.shields.io/badge/nmap-reconnaissance-blue)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-Community-orange)
+![Impacket](https://img.shields.io/badge/Impacket-AD_exploitation-critical)
+![evil-winrm](https://img.shields.io/badge/evil--winrm-WinRM_shells-critical)
+![BloodHound CE](https://img.shields.io/badge/BloodHound_CE-AD_path_analysis-informational)
+![NetExec](https://img.shields.io/badge/NetExec-network_attack-critical)
+![hashcat](https://img.shields.io/badge/hashcat-password_attacks-orange)
+![certipy](https://img.shields.io/badge/certipy-AD_CS_abuse-critical)
+
+**Mobile**
+
 ![Frida](https://img.shields.io/badge/Frida-dynamic_analysis-red)
 ![Objection](https://img.shields.io/badge/Objection-runtime_exploration-red)
 ![JADX](https://img.shields.io/badge/JADX-decompiler-blue)
@@ -51,6 +62,9 @@ publishing step-by-step write-ups so anyone can reproduce the work.
 ![mitmproxy](https://img.shields.io/badge/mitmproxy-TLS_interception-green)
 ![adb](https://img.shields.io/badge/adb-Android-yellow)
 ![libimobiledevice](https://img.shields.io/badge/libimobiledevice-iOS-lightgrey)
+
+**Automation**
+
 ![Python](https://img.shields.io/badge/Python-automation-informational)
 
 ## Notes
